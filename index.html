@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrusel Moderno</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+ </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="edu-header" id="header">
+    <div class="edu-header__container">
+      <div class="edu-header__main">
+        <!-- Logo -->
+        <a href="#" class="edu-header__logo">
+          <div class="edu-header__logo-icon">
+           <img src="img/Logo_EYP.png" alt="">
+           
+          </div>
+          <span class="edu-header__logo-text">EYP<span><br>Plan de Introduccion</span></span>
+        </a>
+
+
+        <!-- Navegacion Desktop -->
+        <nav class="edu-header__nav">
+          <!-- Dropdown CSS -->
+          <div class="edu-dropdown" id="dropdown-css">
+            <button class="edu-dropdown__trigger" onclick="toggleDropdown('css')">
+              <span>CSC</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="edu-dropdown__panel" id="panel-css">
+              <ul class="edu-dropdown__list">
+                <li class="edu-dropdown__item">
+                  <a href="#focos" class="edu-dropdown__link">
+                    <div class="edu-dropdown__link-icon">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                      </svg>
+                    </div>
+                    <div class="edu-dropdown__link-content">
+                      <div class="edu-dropdown__link-title">Focos</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="edu-dropdown__item">
+                  <a href="#okr-kpi-section" class="edu-dropdown__link">
+                    <div class="edu-dropdown__link-icon">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="3" y1="9" x2="21" y2="9"></line>
+                        <line x1="9" y1="21" x2="9" y2="9"></line>
+                      </svg>
+                    </div>
+                    <div class="edu-dropdown__link-content">
+                      <div class="edu-dropdown__link-title">OKR - KPI</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="edu-dropdown__item">
+                  <a href="#serviciosGrid" class="edu-dropdown__link">
+                    <div class="edu-dropdown__link-icon">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                      </svg>
+                    </div>
+                    <div class="edu-dropdown__link-content">
+                      <div class="edu-dropdown__link-title">Procesos CSC</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="edu-dropdown__item">
+                  <a href="#portafolio" class="edu-dropdown__link">
+                    <div class="edu-dropdown__link-icon">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 3l1.912 5.813a2 2 0 001.275 1.275L21 12l-5.813 1.912a2 2 0 00-1.275 1.275L12 21l-1.912-5.813a2 2 0 00-1.275-1.275L3 12l5.813-1.912a2 2 0 001.275-1.275L12 3z"></path>
+                      </svg>
+                    </div>
+                    <div class="edu-dropdown__link-content">
+                      <div class="edu-dropdown__link-title">Portafolio</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="edu-dropdown__item">
+                  <a href="#org-tipo" class="edu-dropdown__link">
+                    <div class="edu-dropdown__link-icon">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                        <line x1="8" y1="21" x2="16" y2="21"></line>
+                        <line x1="12" y1="17" x2="12" y2="21"></line>
+                      </svg>
+                    </div>
+                    <div class="edu-dropdown__link-content">
+                      <div class="edu-dropdown__link-title">Organigrama CSC</div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Dropdown EYP -->
+          <div class="edu-dropdown" id="dropdown-eyp">
+            <button class="edu-dropdown__trigger" onclick="toggleDropdown('eyp')">
+              <span>EYP</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="edu-dropdown__panel" id="panel-eyp">
+              <ul class="edu-dropdown__list">
+                <li class="edu-dropdown__item">
+                  <a href="#org-tipo" class="edu-dropdown__link">
+                    <div class="edu-dropdown__link-icon">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                        <line x1="8" y1="21" x2="16" y2="21"></line>
+                        <line x1="12" y1="17" x2="12" y2="21"></line>
+                      </svg>
+                    </div>
+                    <div class="edu-dropdown__link-content">
+                      <div class="edu-dropdown__link-title">Organigrama EYP</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="edu-dropdown__item">
+                  <a href="#descripcionEyP" class="edu-dropdown__link">
+                    <div class="edu-dropdown__link-icon">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"></path>
+                      </svg>
+                    </div>
+                    <div class="edu-dropdown__link-content">
+                      <div class="edu-dropdown__link-title">Descripción EYP</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="edu-dropdown__item">
+                  <a href="#seccionservicios" class="edu-dropdown__link">
+                    <div class="edu-dropdown__link-icon">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 4h2a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h2"></path>
+                        <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                      </svg>
+                    </div>
+                    <div class="edu-dropdown__link-content">
+                      <div class="edu-dropdown__link-title">Servicios</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="edu-dropdown__item">
+                  <a href="#metodologiasection" class="edu-dropdown__link">
+                    <div class="edu-dropdown__link-icon">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 00-2.91-.09z"></path>
+                        <path d="M12 15l-3-3a22 22 0 012-3.95A12.88 12.88 0 0122 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 01-4 2z"></path>
+                        <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+                        <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+                      </svg>
+                    </div>
+                    <div class="edu-dropdown__link-content">
+                      <div class="edu-dropdown__link-title">Metodología</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="edu-dropdown__item">
+                  <a href="#cscSatBtnRedirect" class="edu-dropdown__link">
+                    <div class="edu-dropdown__link-icon">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                      </svg>
+                    </div>
+                    <div class="edu-dropdown__link-content">
+                      <div class="edu-dropdown__link-title">Encuesta de Satisfacción</div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Boton Menu Movil -->
+        <button class="edu-header__mobile-toggle" id="mobile-toggle" onclick="toggleMobileMenu()">
+          <svg id="menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          <svg id="close-icon" style="display: none;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Menu Movil -->
+    <div class="edu-header__mobile-menu" id="mobile-menu">
+      <div class="edu-header__mobile-content">
+        <div class="edu-mobile-section">
+          <h3 class="edu-mobile-section__title">CSS</h3>
+          <ul class="edu-mobile-section__list">
+            <li><a href="#focos" class="edu-mobile-section__link" onclick="closeMobileMenu()">Focos</a></li>
+            <li><a href="#okr-kpi-section" class="edu-mobile-section__link" onclick="closeMobileMenu()">OKR - KPI</a></li>
+            <li><a href="#serviciosGrid" class="edu-mobile-section__link" onclick="closeMobileMenu()">Procesos CSC</a></li>
+            <li><a href="#portafolio" class="edu-mobile-section__link" onclick="closeMobileMenu()">Portafolio</a></li>
+            <li><a href="#org-tipo" class="edu-mobile-section__link" onclick="closeMobileMenu()">Organigrama CSC</a></li>
+          </ul>
+        </div>
+        <div class="edu-mobile-section">
+          <h3 class="edu-mobile-section__title">EYP</h3>
+          <ul class="edu-mobile-section__list">
+            <li><a href="#org-tipo" class="edu-mobile-section__link" onclick="closeMobileMenu()">Organigrama EYP</a></li>
+            <li><a href="#descripcionEyP" class="edu-mobile-section__link" onclick="closeMobileMenu()">Descripción EYP</a></li>
+            <li><a href="#planeacion" class="edu-mobile-section__link" onclick="closeMobileMenu()">Planeacion</a></li>
+            <li><a href="#seccionservicios" class="edu-mobile-section__link" onclick="closeMobileMenu()">Servicios</a></li>
+            <li><a href="#evaluacion" class="edu-mobile-section__link" onclick="closeMobileMenu()">Evaluacion</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  </main>
+
+
+  <section class="hero-section">
+    <div class="container">
+      <div class="text-content">
+        <span class="eyebrow">CSC</span>
+        <h2 class="title">Centro de Servicios Compartidos</h2>
+        <p class="description">
+          El Centro de Servicios Compartidos (CSC) centraliza las funciones financieras y administrativas de la organización para optimizar procesos, reducir costos y mejorar la calidad del servicio. Su enfoque se basa en la eficiencia operativa, el fortalecimiento del talento humano y la construcción de relaciones estratégicas con clientes internos y proveedores.
+       </p>
+         
+
+      </div>
+      
+      <div class="carousel-wrapper">
+        <div class="carousel">
+          <div class="carousel-track">
+            <div class="carousel-slide active">
+              <img src="img/IMG_1.jpg" alt="Diseño abstracto colorido">
+              <div class="slide-overlay">
+                <h3>Trabajo en equipo</h3>
+                <p>Juntos somos más fuertes</p>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <img src="img/IMG_2.jpg" alt="Arquitectura moderna">
+              <div class="slide-overlay">
+                <h3>Innovación</h3>
+                <p>Las mejores ideas nacen del cambio.</p>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <img src="img/IMG_3.jpg" alt="Gradiente púrpura">
+              <div class="slide-overlay">
+                <h3>Crecimiento</h3>
+                <p>Cada paso nos acerca a nuestras metas.</p>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <img src="img/IMG_4.jpg" alt="Gradiente vibrante">
+              <div class="slide-overlay">
+                <h3>Visión</h3>
+                <p>Creamos hoy lo que queremos mañana.</p>
+              </div>
+            </div>
+          </div>
+          
+
+          <button class="carousel-btn carousel-btn--prev" aria-label="Imagen anterior">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button class="carousel-btn carousel-btn--next" aria-label="Siguiente imagen">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+        
+
+        <div class="carousel-dots">
+          <button class="carousel-dot active" aria-label="Ir a imagen 1" data-index="0"></button>
+          <button class="carousel-dot" aria-label="Ir a imagen 2" data-index="1"></button>
+          <button class="carousel-dot" aria-label="Ir a imagen 3" data-index="2"></button>
+          <button class="carousel-dot" aria-label="Ir a imagen 4" data-index="3"></button>
+        </div>
+      </div>
+
+      <!-- 1. EL BOTÓN QUE ABRE (Ponlo en tu carrusel) -->
+<label for="modal-selector-csc" class="btn-stellar-action">
+    Ver Unidades
+</label>
+
+<!-- 2. EL INTERRUPTOR -->
+<input type="checkbox" id="modal-selector-csc" class="nebula-state-control">
+
+<!-- 3. LA VENTANA EMERGENTE -->
+<div class="overlay-void-layer">
+    
+    <!-- Este label permite cerrar al hacer clic en cualquier parte del fondo púrpura -->
+    <label for="modal-selector-csc" class="backdrop-close-trigger"></label>
+    
+    <div class="modal-core-nucleus">
+        
+        <!-- BOTÓN DE SALIDA (Asegúrate de que esté ANTES de la imagen en el HTML) -->
+        <label for="modal-selector-csc" class="btn-exit-portal">
+            <span class="arrow-icon-back">←</span>
+            <span class="exit-text">Volver</span>
+        </label>
+        
+        <!-- TU IMAGEN -->
+        <img src="img/Unidades.png" alt="Información CSC" class="content-image-prism">
+        
+    </div>
+</div>
+    </div>
+    
+  </section>
+
+  <section class="foco-wrapper" id="focos">
+    <div class="foco-blob foco-blob-1"></div>
+    <div class="foco-blob foco-blob-2"></div>
+    <div class="foco-blob foco-blob-3"></div>
+
+    
+      </header>
+
+      <div class="foco-title-banner">
+        <h1>Focos de Estrategia CSC 2026</h1>
+      </div>
+
+      <main class="foco-main-content">
+        <section class="foco-graph-section">
+          <div class="foco-graph-container">
+            <div class="foco-central-circle">
+              <span>Focos unidad</span>
+              <span>CSC</span>
+            </div>
+
+            <div class="foco-segment foco-segment-1" data-foco="1">
+              <div class="foco-segment-inner">
+                <div class="foco-segment-border"></div>
+                <svg viewBox="0 0 200 200">
+                  <defs>
+                    <linearGradient id="foco-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" style="stop-color:#e91e8c"/>
+                      <stop offset="100%" style="stop-color:#ff69b4"/>
+                    </linearGradient>
+                    <filter id="foco-shadow1">
+                      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-opacity="0.3"/>
+                    </filter>
+                  </defs>
+                  <path d="M100 20 L180 160 L20 160 Z" fill="url(#foco-grad1)" filter="url(#foco-shadow1)" rx="20"/>
+                </svg>
+                <span class="foco-segment-number">01</span>
+              </div>
+            </div>
+
+            <div class="foco-segment foco-segment-2" data-foco="2">
+              <div class="foco-segment-inner">
+                <div class="foco-segment-border"></div>
+                <svg viewBox="0 0 200 200">
+                  <defs>
+                    <linearGradient id="foco-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" style="stop-color:#7b2d8e"/>
+                      <stop offset="100%" style="stop-color:#9b59b6"/>
+                    </linearGradient>
+                    <filter id="foco-shadow2">
+                      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-opacity="0.3"/>
+                    </filter>
+                  </defs>
+                  <path d="M100 20 L180 160 L20 160 Z" fill="url(#foco-grad2)" filter="url(#foco-shadow2)" transform="rotate(60, 100, 100)"/>
+                </svg>
+                <span class="foco-segment-number">02</span>
+              </div>
+            </div>
+
+            <div class="foco-segment foco-segment-3" data-foco="3">
+              <div class="foco-segment-inner">
+                <div class="foco-segment-border"></div>
+                <svg viewBox="0 0 200 200">
+                  <defs>
+                    <linearGradient id="foco-grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" style="stop-color:#ff6b08"/>
+                      <stop offset="100%" style="stop-color:#ffb347"/>
+                    </linearGradient>
+                    <filter id="foco-shadow3">
+                      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-opacity="0.3"/>
+                    </filter>
+                  </defs>
+                  <path d="M100 20 L180 160 L20 160 Z" fill="url(#foco-grad3)" filter="url(#foco-shadow3)" transform="rotate(-60, 100, 100)"/>
+                </svg>
+                <span class="foco-segment-number">03</span>
+              </div>
+            </div>
+
+            <div class="foco-flow-arrows">
+              <div class="foco-flow-arrow foco-flow-arrow-1">
+                <svg viewBox="0 0 60 60">
+                  <path class="foco-arrow-path" d="M10 30 Q30 10 50 30" fill="none" stroke="var(--foco-orange)" stroke-width="3" stroke-linecap="round"/>
+                  <polygon points="45,25 55,30 45,35" fill="var(--foco-orange)"/>
+                </svg>
+              </div>
+              <div class="foco-flow-arrow foco-flow-arrow-2">
+                <svg viewBox="0 0 60 60">
+                  <path class="foco-arrow-path" d="M10 30 Q30 10 50 30" fill="none" stroke="var(--foco-orange)" stroke-width="3" stroke-linecap="round"/>
+                  <polygon points="45,25 55,30 45,35" fill="var(--foco-orange)"/>
+                </svg>
+              </div>
+              <div class="foco-flow-arrow foco-flow-arrow-3">
+                <svg viewBox="0 0 60 60">
+                  <path class="foco-arrow-path" d="M10 30 Q30 10 50 30" fill="none" stroke="var(--foco-orange)" stroke-width="3" stroke-linecap="round"/>
+                  <polygon points="45,25 55,30 45,35" fill="var(--foco-orange)"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="foco-text-sections" id="focoCardsContainer"></section>
+      </main>
+    </div>
+  </section>
+  <section class="container_okrvskpi" id="okr-kpi-section">
+        <!-- OKR Panel (Left) -->
+        <div class="panel panel-okr">
+            <div class="content">
+                <h1 class="title">OKR</h1>
+                <p style="font-size: 0.9rem; color: #00E1D9; margin-bottom: 20px;">(Objective and Key Result)</p>
+                
+                <h2 class="section-title">Objetivo</h2>
+                <p>Define qué queremos lograr. Es el "qué". Debe ser cualitativo, inspirador y breve. ¿A dónde queremos llegar?</p>
+                
+                <h2 class="section-title">Resultado Clave</h2>
+                <p>Resultados medibles y cuantificables que indican si el objetivo se está cumpliendo. Son el "cómo". Responde a: ¿Cómo sabremos si lo logramos?</p>
+                
+                <div class="card">
+                    <ul>
+                        <li>Metodología estratégica</li>
+                        <li>Impulsa cambio y crecimiento</li>
+                        <li>Enfoque trimestral</li>
+                        <li>Define nuevos destinos</li>
+                        <li>Hitos concretos (Key Results)</li>
+                        <li>Responde: ¿Hacia dónde vamos MAÑANA?</li>
+                    </ul>
+                </div>
+                <button id="btnVerMasOKR" class="btn-ver-mas">Conoce los OKR</button>
+                <div id="contenidoExtraOKR" style="display: none;">
+                  <div class="container_okr">
+                      <!-- Título Principal -->
+        <div class="main-title">
+            <h1>Objective & Key Results CSC 2026</h1>
+        </div>
+
+        <!-- Tarjeta 1 - Objetivo 1 -->
+        <div class="accordion-card" data-accordion="1">
+            <div class="percentage-circle">50%</div>
+            <div class="accordion-header">
+                <div class="header-content">
+                    <span class="objective-id">O1</span>
+                    <p class="objective-text">Consolidar al CSC como socio estratégico de las Unidades de Negocio, generando valor a través de la optimización y eficiencia, mejorando la calidad del servicio y experiencia de cliente.</p>
+                </div>
+                <div class="arrow-icon">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="accordion-content">
+                <div class="content-inner">
+                    <span class="focus-label">Foco CSC: Generación de valor y eficiencia de costos</span>
+                    <ul class="kr-list">
+                        <li class="kr-item">
+                            <span class="kr-label">KR 1</span>
+                            <p class="kr-text">Reducir el costo y/o participación del gasto en $X millones.</p>
+                        </li>
+                        <li class="kr-item">
+                            <span class="kr-label">KR 2</span>
+                            <p class="kr-text">Disminuir el Lead Time de atención en X días.</p>
+                        </li>
+                        <li class="kr-item">
+                            <span class="kr-label">KR 3</span>
+                            <p class="kr-text">Elevar la satisfacción del cliente en X puntos.</p>
+                        </li>
+                        <li class="kr-item">
+                            <span class="kr-label">KR 4</span>
+                            <p class="kr-text">Reducir X fallos críticos o riesgos en las operaciones de Negocio.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjeta 2 - Objetivo 2 -->
+        <div class="accordion-card" data-accordion="2">
+            <div class="percentage-circle">50%</div>
+            <div class="accordion-header">
+                <div class="header-content">
+                    <span class="objective-id">O2</span>
+                    <p class="objective-text">Maximizar la contribución financiera del CSC mediante un modelo de eficiencia sostenible que impacten los ingresos y el remanente de la organización.</p>
+                </div>
+                <div class="arrow-icon">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="accordion-content">
+                <div class="content-inner">
+                    <span class="focus-label">Foco CSC: Generación de valor y eficiencia de costos</span>
+                    <ul class="kr-list">
+                        <li class="kr-item">
+                            <span class="kr-label">KR 5*</span>
+                            <p class="kr-text">Asegurar que el crecimiento del presupuesto CSC para el año 2027 se mantenga 2 puntos porcentuales por debajo del IPC.</p>
+                        </li>
+                        <li class="kr-item">
+                            <span class="kr-label">KR 6</span>
+                            <p class="kr-text">Lograr una ejecución del 95% del presupuesto 2026 asignado a los procesos del CSC.</p>
+                        </li>
+                        <li class="kr-item">
+                            <span class="kr-label">KR 7</span>
+                            <p class="kr-text">Lograr una ejecución del 95% del presupuesto 2026 asignado a cuentas clave que administran los procesos del CSC.</p>
+                        </li>
+                        <li class="kr-item">
+                            <span class="kr-label">KR 8</span>
+                            <p class="kr-text">Implementar una iniciativa por proceso que genere ingresos a Compensar - Conglomerado o logre una disminución del gasto / remanente.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                      <!-- TODO tu código largo aquí sin modificar -->
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- KPI Panel (Right) -->
+        <div class="panel panel-kpi">
+            <div class="content">
+                <h1 class="title">KPI</h1>
+                <p style="font-size: 0.9rem; color: #bf360c; margin-bottom: 20px;">(Key Performance Indicator)</p>
+                
+                <h2 class="section-title">Indicador Clave</h2>
+                <p>Son indicadores que se utilizan para medir el éxito de una actividad o proceso que ya está en marcha. Mientras que los OKR son para el cambio y el crecimiento, los KPI son para el seguimiento y la salud del negocio.</p>
+                
+                <div class="card">
+                    <ul>
+                        <li>Panel de Control</li>
+                        <li>Mide salud y rendimiento Actual</li>
+                         <li>Seguimiento Constante</li>
+                        <li>Procesos en marcha</li>
+                        <li>Evalúa Objetivos de rutina</li>
+                        <li>Responde: ¿El motor funciona bien HOY?</li>
+                    </ul>
+                </div>
+                <button id="btnVerMasKPI" class="btn-ver-mas-kpi">Conoce los KPI</button>
+                <div id="contenidoExtraKPI" style="display: none;">
+                  
+  <div class="container-kpi">
+    <!-- Header -->
+    <header class="header-kpi ">
+      <h1>Seguimiento a KPI Clave</h1>
+      <p class="subtitle">Apalancan los focos estratégicos del CSC</p>
+      <p class="note">(No suben a Crehana)</p>
+    </header>
+ 
+    <!-- Filter Buttons -->
+    <div class="filters">
+      <button class="filter-btn active" data-filter="todos">Todos</button>
+      <button class="filter-btn" data-filter="transformacion">Transformación digital</button>
+      <button class="filter-btn" data-filter="generacion">Generación de valor</button>
+      <button class="filter-btn" data-filter="potencializacion">Potencialización de equipos</button>
+    </div>
+ 
+    <!-- KPI List -->
+    <div class="kpi-list">
+      <div class="kpi-card" data-category="transformacion">
+        <span class="kpi-id">KPI 1</span>
+        <p class="kpi-text">Avanzar en la madurez digital del 100% de las cadenas de valor que impactan las unidades de negocio.</p>
+        <span class="kpi-badge transformacion">Transformación digital</span>
+      </div>
+ 
+      <div class="kpi-card" data-category="transformacion">
+        <span class="kpi-id">KPI 2</span>
+        <p class="kpi-text">Generar modelos Analíticos de valor consolidando el 100% de la información clave de los procesos del CSC.</p>
+        <span class="kpi-badge transformacion">Transformación digital</span>
+      </div>
+ 
+      <div class="kpi-card" data-category="generacion">
+        <span class="kpi-id">KPI 3</span>
+        <p class="kpi-text">Alcanzar el 100% de cumplimiento en las metas de productividad operativa definidas para cada proceso del CSC.</p>
+        <span class="kpi-badge generacion">Generación de valor</span>
+      </div>
+ 
+      <div class="kpi-card" data-category="generacion">
+        <span class="kpi-id">KPI 4</span>
+        <p class="kpi-text">Alcanzar el 100% de ejecución de resultados clave definidos por cada proceso del CSC.</p>
+        <span class="kpi-badge generacion">Generación de valor</span>
+      </div>
+ 
+      <div class="kpi-card" data-category="generacion">
+        <span class="kpi-id">KPI 5</span>
+        <p class="kpi-text">Garantizar el 100% del Índice de éxito del cliente definido para el proceso (CSC 95.5).</p>
+        <span class="kpi-badge generacion">Generación de valor</span>
+      </div>
+ 
+      <div class="kpi-card" data-category="potencializacion">
+        <span class="kpi-id">KPI 6</span>
+        <p class="kpi-text">Talento Humano (por definir).</p>
+        <span class="kpi-badge potencializacion">Potencialización de equipos</span>
+      </div>
+    </div>
+ 
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer-text">*KPI Estándar para todos los procesos (no negociable)</p>
+    </footer>
+  </div>
+
+                </div>
+              </div>
+                 
+        </div>
+    </section>
+
+
+  <section class="features-section">
+  <div class="features-header">
+    <span class="eyebrow">Conoce los Procesos</span>
+    <h2 class="title">CSC</h2>
+  </div>
+
+  <div class="seyp-cards-grid" id="serviciosGrid">
+    
+    <article class="feature-card">
+      <div class="card-icon">
+      <img src="img/Instalaciones y Servicios.png" alt="">
+      </div>
+      <span class="eyebrow">PNA</span>
+      <h3 class="card-title">Administración de Instalaciones y Servicios</h3>
+      <p class="card-description">Garantiza la operación continua mediante la gestión integral de infraestructura, mantenimiento y servicios administrativos.</p>
+    </article>
+
+    <article class="feature-card">
+      <div class="card-icon">
+      <img src="img/Seguridad Integral.png" alt="">
+      </div>
+      <span class="eyebrow">PSI</span>
+      <h3 class="card-title">Seguridad Integral</h3>
+      <p class="card-description">Asegura entornos protegidos y sostenibles, salvaguardando a las personas, las instalaciones y los recursos.</p>
+    </article>
+
+    <article class="feature-card">
+      <div class="card-icon">
+      <img src="img/Información Empresarial.png" alt="">
+      </div>
+      <span class="eyebrow">GIE</span>
+      <h3 class="card-title">Gestionar Información Empresaria</h3>
+      <p class="card-description">Gestiona la información para facilitar el acceso a los servicios y fortalecer la relación con los clientes.
+      </p>
+    </article>
+
+    <article class="feature-card">
+      <div class="card-icon">
+      <img src="img/Estrategia y Productividad.png" alt="">
+      </div>
+      <span class="eyebrow">EYP</span>
+      <h3 class="card-title">Estrategia y Productividad</h3>
+      <p class="card-description">Orienta la estrategia y el portafolio del CSC mediante el seguimiento al desempeño y el fortalecimiento de sus capacidades, alineado con la estrategia corporativa.</p>
+    </article>
+     <article class="feature-card">
+      <div class="card-icon">
+      <img src="img/Compras y Abastecimiento .png" alt="">
+      </div>
+      <span class="eyebrow">PNA</span>
+      <h3 class="card-title">Compras y Abastecimiento</h3>
+      <p class="card-description">Garantiza el suministro eficiente de recursos, al mejor costo y con aliados estratégicos que fortalecen la operación.</p>
+    </article>
+     <article class="feature-card">
+      <div class="card-icon">
+      <img src="img/Servicios jurídicos.png" alt="">
+      </div>
+      <span class="eyebrow">PSJ</span>
+      <h3 class="card-title">Servicios Jurídicos</h3>
+      <p class="card-description">Proporciona respaldo jurídico oportuno para prevenir y mitigar riesgos legales y económicos.</p>
+    </article>
+     <article class="feature-card">
+      <div class="card-icon">
+      <img src="img/Finanzas.png" alt=""> 
+      </div>
+      <span class="eyebrow">PCF</span>
+      <h3 class="card-title">Finanzas</h3>
+      <p class="card-description">Acompaña la toma de decisiones con análisis financiero oportuno y una gestión responsable de los recursos para asegurar la sostenibilidad.</p>
+    </article>
+     <article class="feature-card">
+      <div class="card-icon">
+      <img src="img/Bienestar_Integral.png" alt="">
+      </div>
+      <span class="eyebrow">PLB</span>
+      <h3 class="card-title">Plataforma de Bienestar Integral</h3>
+      <p class="card-description">Articula soluciones que fortalecen el bienestar integral y elevan la calidad de vida de las personas y las organizaciones.</p>
+    </article>
+     <article class="feature-card">
+      <div class="card-icon">
+       <img src="img/Innovación.png" alt="">
+      </div>
+      <span class="eyebrow">PIN</span>
+      <h3 class="card-title">Innovación</h3>
+      <p class="card-description">Impulsa la transformación mediante el desarrollo e implementación de soluciones que generan eficiencia y valor para la organización.</p>
+    </article>
+     <article class="feature-card">
+      <div class="card-icon">
+      <img src="img/Canales.png" alt="">
+      </div>
+      <span class="eyebrow">PCA</span>
+      <h3 class="card-title">Canales</h3>
+      <p class="card-description">Atención - Cercanía - Satisfacción</p>
+    </article>
+     <article class="feature-card">
+      <div class="card-icon">
+      <img src="img/Comunidad TI.png" alt="">
+      </div>
+        
+      <span class="eyebrow">TI</span>
+      <h3 class="card-title">Comunidad TI</h3>
+      <p class="card-description">Soluciones - Estándares - Colaboración</p>
+    </article>
+
+ </div>
+</div>
+<div class="ver-mas-container">
+    <button id="btnVerMas" class="btn-primary">Ver más servicios</button>
+  </div>
+</section>
+
+
+<section class="section-portfolio" id="portafolio">
+        <div class="container-portafolio">
+            <header class="section-header">
+                <h1>Acerca del Portafolio</h1>
+                <div class="header-decoration">
+                    <span class="header-line"></span>
+                    <span class="header-dot"></span>
+                    <span class="header-line"></span>
+                </div>
+            </header>
+ 
+            <div class="accordion">
+                <div class="accordion-item" data-index="0">
+                    <div class="accordion-header">
+                        <span class="accordion-question">¿Qué es el Portafolio?</span>
+                        <div class="accordion-icon">
+                            <span>+</span>
+                        </div>
+                    </div>
+                    <div class="accordion-content">
+                        <p class="accordion-answer">El portafolio de servicios es una herramienta estratégica que permite gestionar de manera integral los servicios y requerimientos que el CSC ofrece a la organización.</p>
+                    </div>
+                </div>
+ 
+                <div class="accordion-item" data-index="1">
+                    <div class="accordion-header">
+                        <span class="accordion-question">¿Qué es el portafolio de servicios en el CSC de Compensar?</span>
+                        <div class="accordion-icon">
+                            <span>+</span>
+                        </div>
+                    </div>
+                    <div class="accordion-content">
+                        <p class="accordion-answer">Es la agrupación o conjunto de servicios y requerimientos afines, que realiza cada uno de los procesos que componen el anillo integrador – CSC; para responder a las necesidades de los procesos de la organización (clientes del CSC).</p>
+                    </div>
+                </div>
+ 
+                <div class="accordion-item" data-index="2">
+                    <div class="accordion-header">
+                        <span class="accordion-question">¿Qué es un servicio del portafolio en el CSC de Compensar?</span>
+                        <div class="accordion-icon">
+                            <span>+</span>
+                        </div>
+                    </div>
+                    <div class="accordion-content">
+                        <p class="accordion-answer">Servicio es un conjunto de actividades (agrupación de las funciones de apoyo), a través de la que se obtiene un resultado y satisface las necesidades de los procesos de la organización (clientes del CSC).</p>
+                    </div>
+                </div>
+ 
+                <div class="accordion-item" data-index="3">
+                    <div class="accordion-header">
+                        <span class="accordion-question">¿Qué es un requerimiento de un servicio en el CSC?</span>
+                        <div class="accordion-icon">
+                            <span>+</span>
+                        </div>
+                    </div>
+                    <div class="accordion-content">
+                        <p class="accordion-answer">ES/Son los componentes o divisiones especificas de un servicio; resultado de características especificas, que tiene durante la entrega y prestación del mismo (Ej. Tiempo, tipo de producto/entregable, entre otros).</p>
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="cta-container">
+                <a href="https://intranet.compensar.com/mi-compensar/Paginas/centro-de-servicios-compartidos.aspx" class="cta-button">Ver Portafolio</a>
+            </div>
+           
+        </div>
+    </section>
+ 
+  
+  <section class="organigramas-section" id="organigramas">
+    <div class="organigramas-container">
+      <h2 class="organigramas-title">Nuestra Estructura</h2>
+
+      <div class="organigramas-viewer">
+        <div class="org-arrows-mobile">
+          <button class="org-arrow org-arrow-prev" aria-label="Organigrama anterior">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          <button class="org-arrow org-arrow-next" aria-label="Siguiente organigrama">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="org-content">
+          <div class="org-content-inner">
+            <span class="org-tipo" id="org-tipo">1 de 2</span>
+            <h3 class="org-nombre" id="org-nombre">Organigrama CSC</h3>
+            <p class="org-descripcion" id="org-descripcion">
+              El organigrama muestra una estructura jerárquica de tipo funcional, liderada por el Director del Centro de Servicios Compartidos. Desde este nivel se articulan las diferentes gerencias de áreas estratégicas y de apoyo, las cuales reportan directamente, permitiendo una gestión centralizada, coordinación eficiente y alineación de los procesos organizacionales.
+            </p>
+            <button class="org-btn" id="org-ver-btn">
+              <span>Ver Organigrama Completo</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+              </svg>
+            </button>
+          </div>
+
+          <div class="org-indicators">
+            <button class="org-indicator active" data-index="0" aria-label="Ir a organigrama 1"></button>
+            <button class="org-indicator" data-index="1" aria-label="Ir a organigrama 2"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="org-modal" id="org-modal">
+    <div class="org-modal-overlay"></div>
+    <div class="org-modal-content">
+      <div class="org-modal-header">
+        <h4 class="org-modal-title" id="org-modal-title">Organigrama EYP</h4>
+        <p class="org-descripcion" id="org-descripcion">
+        <button class="org-modal-close" aria-label="Cerrar modal">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="org-modal-body">
+        <img class="org-modal-image" id="org-modal-image" src="/img/Organigrama EYP.png" alt="Organigrama">
+      </div>
+    </div>
+  </div>
+
+   <section id="descripcionEyP" class="desc-eyp-wrapper">
+<div class="desc-eyp-container">
+<article class="desc-eyp-card">
+<div class="desc-eyp-icon-container">
+<img class="logoeypd" src="/img/Estrategia y Productividad.png" alt="Logo EYP">
+<path d="M32 24C27.6 24 24 27.6 24 32C24 36.4 27.6 40 32 40C36.4 40 40 36.4 40 32C40 27.6 36.4 24 32 24ZM32 36C29.8 36 28 34.2 28 32C28 29.8 29.8 28 32 28C34.2 28 36 29.8 36 32C36 34.2 34.2 36 32 36Z" fill="currentColor"/>
+<path d="M50 30H47.6C47.2 28.6 46.6 27.4 45.8 26.2L47.4 24.6C48.2 23.8 48.2 22.4 47.4 21.6L42.4 16.6C41.6 15.8 40.2 15.8 39.4 16.6L37.8 18.2C36.6 17.4 35.4 16.8 34 16.4V14C34 12.8 33 12 32 12C31 12 30 12.8 30 14V16.4C28.6 16.8 27.4 17.4 26.2 18.2L24.6 16.6C23.8 15.8 22.4 15.8 21.6 16.6L16.6 21.6C15.8 22.4 15.8 23.8 16.6 24.6L18.2 26.2C17.4 27.4 16.8 28.6 16.4 30H14C12.8 30 12 31 12 32C12 33 12.8 34 14 34H16.4C16.8 35.4 17.4 36.6 18.2 37.8L16.6 39.4C15.8 40.2 15.8 41.6 16.6 42.4L21.6 47.4C22.4 48.2 23.8 48.2 24.6 47.4L26.2 45.8C27.4 46.6 28.6 47.2 30 47.6V50C30 51.2 31 52 32 52C33 52 34 51.2 34 50V47.6C35.4 47.2 36.6 46.6 37.8 45.8L39.4 47.4C40.2 48.2 41.6 48.2 42.4 47.4L47.4 42.4C48.2 41.6 48.2 40.2 47.4 39.4L45.8 37.8C46.6 36.6 47.2 35.4 47.6 34H50C51.2 34 52 33 52 32C52 31 51.2 30 50 30ZM32 44C25.4 44 20 38.6 20 32C20 25.4 25.4 20 32 20C38.6 20 44 25.4 44 32C44 38.6 38.6 44 32 44Z" fill="currentColor"/>
+<path d="M8 52L18 42M18 42V50M18 42H10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M56 12L46 22M56 12V20M56 12H48" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</div>
+ 
+      <h2 class="desc-eyp-title">Estrategia y Productividad</h2>
+ 
+      <p class="desc-eyp-body">
+<span id="desc-eyp-text-id" class="desc-eyp-typing-text"></span><span id="desc-eyp-cursor-id" class="desc-eyp-typing-cursor"></span>
+</p>
+ 
+
+</div>
+ 
+    </article>
+</div>
+</section>
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    
+</head>
+<body>
+
+    <div class="csc-background">
+        <div class="csc-bg-shape csc-bg-shape-1"></div>
+        <div class="csc-bg-shape csc-bg-shape-2"></div>
+    </div>
+
+    <div class="csc-container" id="seccionservicios">
+        <header class="csc-header">
+            <div class="csc-logo">
+                
+            </div>
+            <h1 class="csc-title">Servicios</h1>
+        </header>
+
+        <main class="csc-cards-grid">
+            <article class="csc-card csc-card-variant-1" data-card="rrhh">
+                <div class="csc-card-inner">
+                    <div class="csc-card-icon"><i class="fas fa-users"></i></div>
+                    <h3 class="csc-card-title">Gestionar el portafolio de servicios del CSC</h3>
+                    <p class="csc-card-description">Fortalecer el portafolio del CSC mediante innovación, seguimiento y gestión eficiente para mejorar la productividad y competitividad.</p>
+                   <button class="boton-requerimiento" onclick="document.getElementById('modal1').showModal()">
+                            Requerimiento
+                          </button>
+
+                          <dialog id="modal1" class="custom-modal">
+                          <h3>Requerimientos</h3>
+                          <ul style="text-align: left; margin: 20px 0;">
+                            <li>Administración de portafolio</li>
+                            <li>Atención operativa canales (Asistido y digital)</li>
+                            <li>Informes, indicadores y reportería</li>
+                            <li>Posicionamiento y comunicacin CSC</li>
+                          </ul>
+                          <button class="boton-requerimiento" style="width: 100%;" onclick="this.closest('dialog').close()">
+                            Cerrar
+                          </button>
+                        </dialog>
+                </div>
+            </article>
+
+            <article class="csc-card csc-card-variant-2" data-card="finanzas">
+                <div class="csc-card-inner">
+                    <div class="csc-card-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3 class="csc-card-title">Transformación y mejoramiento de procesos</h3>
+                    <p class="csc-card-description">Impulsar la eficiencia del CSC mediante el uso estratégico de información, buenas prácticas y análisis de productividad para apoyar la toma de decisiones.</p>
+                    <button class="boton-requerimiento" onclick="document.getElementById('modal2').showModal()">
+                            Requerimiento
+                          </button>
+
+                          <dialog id="modal2" class="custom-modal">
+                        <h3>Requerimientos</h3>
+                        <ul style="text-align: left; margin: 20px 0;">
+                          <li>Proyectos de Transformación</li>
+                          <li>Mejoramiento y modelamiento de procesos</li>
+                          <li>Productos analÌticos</li>
+                        </ul>
+                        <button class="boton-requerimiento" style="width: 100%;" onclick="this.closest('dialog').close()">
+                          Cerrar
+                        </button>
+                      </dialog>
+                </div>
+            </article>
+
+            <article class="csc-card csc-card-variant-3" data-card="tecnologia">
+                <div class="csc-card-inner">
+                    <div class="csc-card-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3 class="csc-card-title">Gestionar presupuesto e información financiera del CSC</h3>
+                    <p class="csc-card-description">Garantizar la correcta gestión del presupuesto del CSC mediante el control financiero y análisis de viabilidad para apoyar decisiones estratégicas.</p>
+                    <button class="boton-requerimiento" onclick="document.getElementById('modal3').showModal()">
+                            Requerimiento
+                          </button>
+
+                          <dialog id="modal3" class="custom-modal">
+                          <h3>Requerimientos</h3>
+                          <ul style="text-align: left; margin: 20px 0;">
+                            <li>Gestión presupuestal del CSC </li>
+                            <li>AnalÌtica y estrategias financieras del CSC</li>
+                            <li>Gestionar acuerdos de servicio y recobros del CSC (ANS)</li>
+                          </ul>
+                          <button class="boton-requerimiento" style="width: 100%;" onclick="this.closest('dialog').close()">
+                            Cerrar
+                          </button>
+                        </dialog>
+                </div>
+            </article>
+
+            <article class="csc-card csc-card-variant-4" data-card="logistica">
+                <div class="csc-card-inner">
+                    <div class="csc-card-icon"><i class="fas fa-truck-fast"></i></div>
+                    <h3 class="csc-card-title">Transversales</h3>
+                    <p class="csc-card-description">Los requerimientos transversales del CSC se gestionan según su clasificación, asegurando tiempos de respuesta definidos y atención a través de canales como correo electrónico y SMAX para brindar un adecuado seguimiento.</p>
+                    <button class="boton-requerimiento" onclick="document.getElementById('modal4').showModal()">
+                            Requerimiento
+                          </button>
+
+                          <dialog id="modal4" class="custom-modal">
+                            <h3>Requerimientos</h3>
+                            <ul style="text-align: left; margin: 20px 0;">
+                              <li>Gestionar la estrategia de la unidad</li>
+                              <li>Consultas</li>
+                              <li>PQRS del Centro de Servicios Compartidos</li>
+                            </ul>
+                            <button class="boton-requerimiento" style="width: 100%;" onclick="this.closest('dialog').close()">
+                              Cerrar
+                            </button>
+                          </dialog>
+                          
+                </div>
+            </article>
+        </main>
+    </div>
+
+    
+
+    <div class="csc-modal-overlay" id="cscModalOverlay">
+        <div class="csc-modal">
+            <button class="csc-modal-close" id="cscModalClose"><i class="fas fa-times"></i></button>
+            <div class="csc-modal-header" style="text-align: center; margin-bottom: 20px;">
+                <div class="csc-card-icon" id="cscModalIcon" style="margin: 0 auto 15px auto;"></div>
+                <h2 id="cscModalTitle">Título</h2>
+                <p id="cscModalSubtitle" style="color: #86868b;">Subtítulo</p>
+            </div>
+            <div class="csc-modal-body">
+                <p id="cscModalDescription" style="margin-bottom: 20px;"></p>
+                <div id="cscModalServices"></div>
+            </div>
+            <div class="csc-modal-footer" style="display: flex; gap: 10px; margin-top: 30px;">
+                <button class="csc-modal-btn-secondary" id="cscModalCancel" style="flex: 1; padding: 12px; border-radius: 50px; border: none; cursor: pointer;">Volver</button>
+                <button class="csc-card-button" id="cscModalSubmit" style="flex: 2;">Enviar Requerimiento</button>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodología de Transformación</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <section id="metodologiasection" class="metodologia-section"></section>
+        <h2 class="proj-title">METODOLOGÍA DE <span>TRABAJO</span></h2>
+        
+        <div class="metodologia-container">
+            <!-- Tarjeta 1 -->
+            <div class="tarjeta" data-color="azul-petroleo">
+                <div class="numero-circulo azul-petroleo">1</div>
+                <h3 class="tarjeta-titulo">Entendimiento</h3>
+                <p class="tarjeta-descripcion">¿Qué necesita y qué espera obtener?</p>
+                <div class="icono-circulo azul-petroleo">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="tarjeta" data-color="naranja">
+                <div class="numero-circulo naranja">2</div>
+                <h3 class="tarjeta-titulo">Diagnóstico</h3>
+                <p class="tarjeta-descripcion">¿Por qué y para qué es necesario cambiar?</p>
+                <div class="icono-circulo naranja">
+                    <i class="fas fa-stethoscope"></i>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="tarjeta" data-color="magenta">
+                <div class="numero-circulo magenta">3</div>
+                <h3 class="tarjeta-titulo">Diseño</h3>
+                <p class="tarjeta-descripcion">¿Qué tipo de cambio se requiere?</p>
+                <div class="icono-circulo magenta">
+                    <i class="fas fa-pencil-ruler"></i>
+                </div>
+            </div>
+
+            <!-- Tarjeta 4 -->
+            <div class="tarjeta" data-color="morado">
+                <div class="numero-circulo morado">4</div>
+                <h3 class="tarjeta-titulo">Implementación</h3>
+                <p class="tarjeta-descripcion">¿Cuál es la manera de implementar, formalizar y mantener el cambio?</p>
+                <div class="icono-circulo morado">
+                    <i class="fas fa-cogs"></i>
+                </div>
+            </div>
+
+            <!-- Tarjeta 5 -->
+            <div class="tarjeta" data-color="azul-oscuro">
+                <div class="numero-circulo azul-oscuro">5</div>
+                <h3 class="tarjeta-titulo">Evaluación</h3>
+                <p class="tarjeta-descripcion">¿Cómo medir el impacto del proceso de transformación?</p>
+                <div class="icono-circulo azul-oscuro">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="linea-degradada"></div>
+    </section>
+
+
+  <div class="proj-wrapper" id="metodologia">
+<section class="proj-section">
+ 
+      <div class="proj-cards-container">
+<article class="proj-card proj-card-left">
+<div class="proj-card-icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 2l5 5h-5V4zM6 20V4h6v6h6v10H6zm2-6h8v2H8v-2zm0-4h8v2H8v-2z"/>
+</svg>
+</div>
+<h3 class="proj-card-title">Ficha de Entendimiento</h3>
+<p class="proj-card-description">
+            Es un documento que permite recopilar y clarificar la información clave del proyecto, 
+            como necesidades del cliente, objetivos, alcance y requerimientos. 
+            Sirve para alinear expectativas.
+</p>
+</article>
+ 
+        <article class="proj-card proj-card-right">
+<div class="proj-card-icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7v-5zm7 0h3v2h-3v-2zm0 4h3v2h-3v-2z"/>
+</svg>
+</div>
+<h3 class="proj-card-title">Plan de Trabajo</h3>
+<p class="proj-card-description">
+            Herramienta que organiza actividades definiendo tiempos y entregables. 
+            Incluye estimación por "tallas de camisa": XS, S, M, L, XL, XXL 
+            según la complejidad.
+</p>
+</article>
+</div>
+ 
+      <div class="proj-button-container">
+          <a href="/img/Ficha planeación iniciativas EyP V4 (2).xlsx" download="ficha" class="proj-explore-button" id="projExploreBtn">
+          Explorar Documentación
+</a>
+</div>
+</section>
+</div>
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Satisfacción</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="csc-sat-main-body">
+
+    <section class="csc-sat-hero-container">
+        <div class="csc-sat-card-wrapper">
+            
+            <header class="csc-sat-card-header">
+                <h1 class="csc-sat-main-title">Encuesta de Satisfacción</h1>
+                <div class="csc-sat-divider-line"></div>
+            </header>
+              <div class="csc-sat-card-body">
+                  <div class="csc-sat-note-text">
+                      (La encuesta debe ser diligenciada una vez finalizada la inducción)
+                  </div>
+
+                  <p class="csc-sat-description-text">
+                      Tu opinión es muy importante para nosotros. Queremos conocer cómo fue tu experiencia durante el proceso de inducción para seguir mejorando continuamente.
+                  </p>
+              </div>
+
+            <footer class="csc-sat-card-footer">
+              <a href="https://jazmin6240-art.github.io/induccion-eyp/" target="_blank" rel="noopener noreferrer" id="cscSatBtnRedirect" class="csc-sat-action-button" style="text-decoration: none;">
+                  <span>Responder Encuesta</span>
+                  <svg class="csc-sat-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+              </a>
+          </footer>
+
+        </div>
+    </section>
+
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
