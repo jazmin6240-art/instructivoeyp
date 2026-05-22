@@ -2022,7 +2022,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     
     // CONFIGURACIÓN: Reemplaza esta URL con el enlace real de tu encuesta
-    const URL_ENCUESTA_SATISFACCION = "https://jazmin6240-art.github.io/induccion-eyp/";
+    const URL_ENCUESTA_SATISFACCION = "https://script.google.com/macros/s/AKfycbzNwGKDm2ViLROxYHcRiB8Bj4lIhqW0clUBUZ2qdjgTzUzXRULKQsl-PiVSRvTBIUF1_g/exec";
 
     // Selección del botón mediante su ID único
     const botonEncuesta = document.getElementById('cscSatBtnRedirect');
